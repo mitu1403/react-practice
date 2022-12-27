@@ -1,10 +1,11 @@
 
 import './App.css';
+import Button from './components/Button';
 
 function App() {
   return (
     <div>
-      <h1>Starter Project</h1>      
+      <Button/>      
     </div>
   );
 }
