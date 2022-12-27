@@ -1,10 +1,10 @@
+import CardList from "./components/CardList";
 
-import './App.css';
-
-function App() {
+function App(props) {
   return (
     <div>
-      <h1>Starter Project</h1>      
+      <div className="header">{props.title}</div>
+      <CardList />
     </div>
   );
 }
